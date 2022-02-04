@@ -1,0 +1,11 @@
+Berikut langkah - langkah penggunaan Demo Project CRUD
+1. https://github.com/Arizalpratama1/CRUD_Product_Teknova.git . klik link tersebut lalu clone repository.
+2. setelah diclone buka cli difolder yang telah diclone lalu lakukan "composer install"
+3. ganti nama file .env.example menjadi .env
+4. buat database terlebih dahulu
+5. edit sintaks DB_DATABASE=  di file .env untuk diisikan sesuai dengan nama database
+6. ketikkan perintah php artisan key:generate di CLI pada folder repository yang telah diclone
+7. ketikkan perintah php artisan migrate di CLI pada folder repository yang telah diclone
+8. ketikkan perintah php artisan serve di CLI pada folder repository yang telah diclone
+9. buka browser dan copy paste link berikut http://127.0.0.1:8000/api/products lalu klik enter
+10. aplikasi siap didemokan
